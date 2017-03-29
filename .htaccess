@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^Login$             index.php
+RewriteRule ^Registrar_Usuario$ index.php?c=usuario&a=viewCreate
